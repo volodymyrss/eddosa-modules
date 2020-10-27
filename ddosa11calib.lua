@@ -7,6 +7,7 @@ local version = "???"
 local base = "/unsaved/astro/savchenk/osa11/dda-ddosa11calib"
 
 depends_on("eddosa_tools")
+depends_on("integral-response-model")
 
 prepend_path("PYTHONPATH", pathJoin(base, "../osa-ic"))
 prepend_path("PYTHONPATH", pathJoin(base, "dda-eddosa"))
