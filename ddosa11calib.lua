@@ -12,6 +12,7 @@ prepend_path("PYTHONPATH", pathJoin(base, "../osa-ic"))
 prepend_path("PYTHONPATH", pathJoin(base, "dda-eddosa"))
 prepend_path("PYTHONPATH", pathJoin(base, "dda-ltdata"))
 prepend_path("PYTHONPATH", pathJoin(base, "dda-response"))
+prepend_path("PYTHONPATH", pathJoin(base, "dda-l2pb3"))
 
 
 whatis("Name: ".. pkgName)
